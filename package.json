@@ -1,0 +1,23 @@
+{
+  "name": "websocketServer",
+  "description": "",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "run": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PxyUp/websocketServer.git"
+  },
+  "keywords": [],
+  "author": "pyxru",
+  "bugs": {
+    "url": "https://github.com/PxyUp/websocketServer/issues"
+  },
+  "homepage": "https://github.com/PxyUp/websocketServer",
+  "dependencies": {
+    "socket.io": "2.0.3",
+    "express": "4.15.4"
+  }
+}
