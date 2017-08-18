@@ -1,4 +1,4 @@
-# Use an official Python runtime as a parent image
+# Node baron version use image
 FROM node:boron
 
 # Set the working directory to /app
@@ -16,5 +16,5 @@ EXPOSE 80
 # Define environment variable
 ENV NAME websocket
 
-# Run app.py when the container launches
+# Run app when the container launches
 CMD ["node", "app.js"]
