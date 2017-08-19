@@ -1,5 +1,5 @@
 # Node baron version use image
-FROM node:boron
+FROM node:8.4
 
 # Set the working directory to /app
 WORKDIR /app
